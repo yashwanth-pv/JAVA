@@ -85,3 +85,79 @@ The Java Virtual Machine (JVM) is a software engine that loads, verifies, and ex
    - └──► compiles when you start writing.
 * **JDK** - Java development kit.
    - └──► For writing java program.
+
+# Tokens
+Tokens are the smallest elements of a program that is meaningful to the compiler. They are also known as the fundamental building blocks of the program. Tokens can be classified as follows:
+
+1. Keywords
+2. Identifiers
+3. Constants/Literals
+4. Operators
+5. Separators ► [] -> Brackets
+              ► {} -> Brases
+              ► () -> Paranthesis
+              ► : -> Colon
+              ► ; -> Semi colon
+              ► . -> Dot operator
+
+# Keywords 
+Keywords are the reserved words which we cannot use as variable name. There are 52 key words.
+
+| No. | Keyword        | Description                                                               |
+| --: | -------------- | ------------------------------------------------------------------------- |
+|   1 | `abstract`     | Declares an abstract class or abstract method.                            |
+|   2 | `assert`       | Tests a condition during debugging.                                       |
+|   3 | `boolean`      | Declares a Boolean variable with values `true` or `false`.                |
+|   4 | `break`        | Terminates a loop or `switch` statement.                                  |
+|   5 | `byte`         | Declares an 8-bit integer variable.                                       |
+|   6 | `case`         | Defines a branch inside a `switch` statement.                             |
+|   7 | `catch`        | Handles an exception thrown inside a `try` block.                         |
+|   8 | `char`         | Declares a single 16-bit Unicode character.                               |
+|   9 | `class`        | Declares a class.                                                         |
+|  10 | `const`        | Reserved but not used in Java.                                            |
+|  11 | `continue`     | Skips the current loop iteration and continues with the next iteration.   |
+|  12 | `default`      | Specifies the default branch in a `switch` statement.                     |
+|  13 | `do`           | Starts a `do-while` loop.                                                 |
+|  14 | `double`       | Declares a double-precision floating-point variable.                      |
+|  15 | `else`         | Executes code when an `if` condition is false.                            |
+|  16 | `enum`         | Declares an enumeration.                                                  |
+|  17 | `extends`      | Indicates that a class inherits from another class.                       |
+|  18 | `final`        | Prevents modification, overriding, or inheritance depending on its usage. |
+|  19 | `finally`      | Defines code that executes after a `try` or `catch` block.                |
+|  20 | `float`        | Declares a single-precision floating-point variable.                      |
+|  21 | `for`          | Starts a loop that repeats based on a condition.                          |
+|  22 | `goto`         | Reserved but not used in Java.                                            |
+|  23 | `if`           | Executes code when a condition is true.                                   |
+|  24 | `implements`   | Indicates that a class implements an interface.                           |
+|  25 | `import`       | Imports classes or packages.                                              |
+|  26 | `instanceof`   | Tests whether an object belongs to a particular type.                     |
+|  27 | `int`          | Declares a 32-bit integer variable.                                       |
+|  28 | `interface`    | Declares an interface.                                                    |
+|  29 | `long`         | Declares a 64-bit integer variable.                                       |
+|  30 | `native`       | Indicates that a method is implemented using native code.                 |
+|  31 | `new`          | Creates a new object or array.                                            |
+|  32 | `package`      | Declares the package to which a class belongs.                            |
+|  33 | `private`      | Restricts access to within the same class.                                |
+|  34 | `protected`    | Allows access within the same package and subclasses.                     |
+|  35 | `public`       | Allows access from anywhere.                                              |
+|  36 | `return`       | Exits a method and optionally returns a value.                            |
+|  37 | `short`        | Declares a 16-bit integer variable.                                       |
+|  38 | `static`       | Declares a member that belongs to the class rather than an object.        |
+|  39 | `strictfp`     | Ensures consistent floating-point calculations across platforms.          |
+|  40 | `super`        | Refers to the parent class object or constructor.                         |
+|  41 | `switch`       | Selects one of several code blocks based on an expression.                |
+|  42 | `synchronized` | Controls access to a block or method by multiple threads.                 |
+|  43 | `this`         | Refers to the current object.                                             |
+|  44 | `throw`        | Explicitly throws an exception.                                           |
+|  45 | `throws`       | Declares exceptions that a method may throw.                              |
+|  46 | `transient`    | Prevents a field from being serialized.                                   |
+|  47 | `try`          | Defines a block of code for exception handling.                           |
+|  48 | `void`         | Indicates that a method does not return a value.                          |
+|  49 | `volatile`     | Indicates that a variable may be modified by multiple threads.            |
+|  50 | `while`        | Starts a loop that continues while a condition is true.                   |
+|  51 | `_`            | Reserved as a keyword since Java 9.                                       |
+|  52 | `yield`        | Produces a value from a `switch` expression.                              |
+
+# Operators
+Java operators are special symbols used to perform computations and operations on variables and values.
+
