@@ -93,12 +93,12 @@ Tokens are the smallest elements of a program that is meaningful to the compiler
 2. Identifiers
 3. Constants/Literals
 4. Operators
-5. Separators ► [] -> Brackets
-              ► {} -> Brases
-              ► () -> Paranthesis
-              ► : -> Colon
-              ► ; -> Semi colon
-              ► . -> Dot operator
+5. Separators * ► [] -> Brackets
+              * ► {} -> Brases
+              * ► () -> Paranthesis
+              * ► : -> Colon
+              * ► ; -> Semi colon
+              * ► . -> Dot operator
 
 # Keywords 
 Keywords are the reserved words which we cannot use as variable name. There are 52 key words.
@@ -161,14 +161,67 @@ Keywords are the reserved words which we cannot use as variable name. There are 
 # Operators
 Java operators are special symbols used to perform computations and operations on variables and values.
 
+# Arithmetic Operators
+Arithmetic operators are used to perform common mathematical operations.
+* a+b Addition
+* a-b Subtraction
+* a*b Multiplication
+* a/b Division
+* a%b MOdulus
+* a++ Increment
+* a-- Decrement
+
 # Assignment Operator
+Assignment operators are used to assign values to variables.
 a = 20
 
-# Arithmetic Operators
-a+b Addition
-a-b Subtraction
-a*b Multiplication
-a/b Division
-a%b MOdulus
-a++ Increment
-a-- Decrement
+# Relational Operators
+Relational operators in Java are used to compare two values, variables, or expressions.
+| Operator | Description |
+|----------|-------------|
+| `==` | Checks if two values are equal. |
+| `!=` | Checks if two values are not equal. |
+| `>` | Checks if the left value is greater than the right value. |
+| `<` | Checks if the left value is less than the right value. |
+| `>=` | Checks if the left value is greater than or equal to the right value. |
+| `<=` | Checks if the left value is less than or equal to the right value. |
+
+# Logical Operators
+Logical operators are used to determine the logic between variables or values, by combining multiple conditions.
+| Operator | Description |
+|----------|-------------|
+| `&&` (AND) | Returns `true` if both conditions are true. |
+| `\|\|` (OR) | Returns `true` if at least one condition is true. |
+| `!` (NOT) | Reverses the logical state of a condition. |
+
+# Data types
+|byte	|
+|short |
+|int |
+|long	|
+|float |
+|double |
+|boolean |
+|char |
+|string|
+
+# Conditional statements
+1. if
+2. if-else
+3. if-else if-else
+4. switch-case
+5. break
+6. continue
+
+Here’s the text extracted from the photo, cleaned up while keeping the original structure:
+
+# Functions
+Functions are block of code which will get executed only when you will call or invoke.**
+
+### How to write a function
+* You have to make the function inside the class.
+* You can make the function above or below the main function.
+* Function name always should be small letter or first letter.
+* Types of functions:
+  1. Functions without parameters
+  2. Functions with parameters
