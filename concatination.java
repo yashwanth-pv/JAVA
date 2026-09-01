@@ -5,7 +5,7 @@
    Public static void main(string[]args)
   {
     int a = 10;
-    int b = Samosa;
+    String b = Samosa;
     System.out.println("Sum is" + (a+b));
 
     boolean result = true;
