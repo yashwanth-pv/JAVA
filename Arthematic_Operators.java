@@ -1,4 +1,4 @@
-class Operators
+class Arthematic_Operators
 {
     public static void add()
     {
