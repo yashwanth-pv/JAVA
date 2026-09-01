@@ -1,15 +1,3 @@
-Class Hello_world
-  {
-   Public static void main(string[]args)
-  {
-    System.out.println(34);
-    System.out.println('Y');
-    System.out.println("Yashwanth");
-    System.out.println(9.12);
-    System.out.println(true);
-  }
-}
-
 # concatination :- (joining)
 
   Class Addition
