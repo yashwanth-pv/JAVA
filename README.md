@@ -161,3 +161,14 @@ Keywords are the reserved words which we cannot use as variable name. There are 
 # Operators
 Java operators are special symbols used to perform computations and operations on variables and values.
 
+# Assignment Operator
+a = 20
+
+# Arithmetic Operators
+a+b Addition
+a-b Subtraction
+a*b Multiplication
+a/b Division
+a%b MOdulus
+a++ Increment
+a-- Decrement
