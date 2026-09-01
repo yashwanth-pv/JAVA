@@ -1,9 +1,3 @@
-int x = 100;
-double pi = 3.14;
-char grade = 'A';
-String name = "Yashu";
-boolean passed = true;
-String data = null;
 Class Hello_world
   {
    Public static void main(string[]args)
@@ -16,3 +10,10 @@ Class Hello_world
   }
 }
 
+*/ int x = 100;
+double pi = 3.14;
+char grade = 'A';
+String name = "Yashu";
+boolean passed = true;
+String data = null;
+/*
