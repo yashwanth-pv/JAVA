@@ -216,12 +216,12 @@ Logical operators are used to determine the logic between variables or values, b
 Here’s the text extracted from the photo, cleaned up while keeping the original structure:
 
 # Functions
-Functions are block of code which will get executed only when you will call or invoke.**
+Functions are block of code which will get executed only when you will call or invoke.
 
 ### How to write a function
 * You have to make the function inside the class.
 * You can make the function above or below the main function.
-* Function name always should be small letter or first letter.
+* Function name always should be small letter of first letter.
 * Types of functions:
   1. Functions without parameters
   2. Functions with parameters
