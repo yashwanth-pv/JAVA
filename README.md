@@ -66,13 +66,13 @@ The Java Virtual Machine (JVM) is a software engine that loads, verifies, and ex
                                   ├─────────────────────────┤
                                   │         HEAP            │
                                   │                         │
-                                  │    Objects & Arrays      │
+                                  │    Objects & Arrays     │
                                   │                         │
                                   ├─────────────────────────┤
                                   │      JAVA STACK         │
                                   │                         │
                                   │ Local Variables         │
-                                  │ Method Calls             │
+                                  │ Method Calls            │
                                   │                         │
                                   └─────────────────────────┘
 
