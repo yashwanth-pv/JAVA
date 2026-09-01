@@ -52,43 +52,29 @@ Java does not technically have **global variables** like some other programming 
 # JVM memory (java virtual memory)
 The Java Virtual Machine (JVM) is a software engine that loads, verifies, and executes Java bytecode, turning it into instructions your computer hardware can understand.
 
-                         JAVA PROGRAM EXECUTION
-                         ═══════════════════════
+                 HOW A JAVA PROGRAM GETS EXECUTED
+                 ────────────────────────────────
 
- Java Source
-   (.java)
-      │
-      ▼
- ┌──────────┐
- │  javac   │  ← Java Compiler
- └────┬─────┘
-      │
-      ▼
- Bytecode
- (.class)
-      │
-      ▼
-┌───────────────┐
-│ Class Loader  │
-└───────┬───────┘
-        │
-        ▼
-┌──────────────────────────────┐
-│             JVM              │
-│                              │
-│  ┌────────┐  ┌────────────┐  │
-│  │  Heap  │  │ Java Stack │  │
-│  └────────┘  └────────────┘  │
-│                              │
-│  ┌────────────────────────┐  │
-│  │      Method Area       │  │
-│  └────────────────────────┘  │
-│                              │
-│       Execution Engine       │
-└──────────────┬───────────────┘
-               │
-               ▼
-          Program Output
+        CLASS LOADER                         JVM
+        ────────────                         ───
+
+        Loads main()              ┌─────────────────────────┐
+              │                   │         STATIC          │
+              │                   │                         │
+              └──────────────────►│    Method Area          │
+                                  │                         │
+                                  ├─────────────────────────┤
+                                  │         HEAP            │
+                                  │                         │
+                                  │    Objects & Arrays      │
+                                  │                         │
+                                  ├─────────────────────────┤
+                                  │      JAVA STACK         │
+                                  │                         │
+                                  │ Local Variables         │
+                                  │ Method Calls             │
+                                  │                         │
+                                  └─────────────────────────┘
 
 * class loader is a program which loads main function in jvm.
 * Static variables store in static area.
