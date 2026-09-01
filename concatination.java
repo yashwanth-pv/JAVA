@@ -1,5 +1,3 @@
-# variables are containers used to store data values in memory during program execution. Every variable is assigned a specific data type, which determines the type and size of the values it can hold
-
 Class Hello_world
   {
    Public static void main(string[]args)
