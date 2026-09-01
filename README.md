@@ -48,3 +48,54 @@ Java does not technically have **global variables** like some other programming 
 | Initialization | Must be initialized before use       | Gets default values                          |
 | Lifetime       | Exists during method/block execution | Exists as long as the object or class exists |
 | Types          | Local variables                      | Instance or static variables                 |
+
+# JVM memory (java virtual memory)
+The Java Virtual Machine (JVM) is a software engine that loads, verifies, and executes Java bytecode, turning it into instructions your computer hardware can understand.
+
+                         JAVA PROGRAM EXECUTION
+                         ═══════════════════════
+
+ Java Source
+   (.java)
+      │
+      ▼
+ ┌──────────┐
+ │  javac   │  ← Java Compiler
+ └────┬─────┘
+      │
+      ▼
+ Bytecode
+ (.class)
+      │
+      ▼
+┌───────────────┐
+│ Class Loader  │
+└───────┬───────┘
+        │
+        ▼
+┌──────────────────────────────┐
+│             JVM              │
+│                              │
+│  ┌────────┐  ┌────────────┐  │
+│  │  Heap  │  │ Java Stack │  │
+│  └────────┘  └────────────┘  │
+│                              │
+│  ┌────────────────────────┐  │
+│  │      Method Area       │  │
+│  └────────────────────────┘  │
+│                              │
+│       Execution Engine       │
+└──────────────┬───────────────┘
+               │
+               ▼
+          Program Output
+
+* class loader is a program which loads main function in jvm.
+* Static variables store in static area.
+
+## where we can run java program 
+> Inside jvm we have **JRE** (java runtime evironment).
+> Inside **JRE** there is **JIT** (just in time).
+   .compiles when you start writing.
+> **JDK** - Java development kit.
+  . For writing java program.
