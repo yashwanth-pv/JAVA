@@ -22,3 +22,29 @@ In Java, **literals** are fixed values written directly in the source code. They
 | **Boolean**        | `true`, `false`      | Represents true/false          |
 | **Null**           | `null`               | Represents no object reference |
 
+# Variables
+variables are containers used to store data values in memory during program execution. Every variable is assigned a specific data type, which determines the type and size of the values it can hold
+
+Here’s a clean, GitHub-ready README section:
+
+# Local Variables and Global Variables in Java
+
+## Local Variables
+
+A **local variable** is declared inside a method, constructor, or block. It can only be accessed within the area where it is declared.
+
+
+## Global Variables
+
+Java does not technically have **global variables** like some other programming languages. However, variables declared inside a class but outside methods are often referred to as **global variables** or **class-level variables**.
+
+
+## Difference Between Local and Global Variables
+
+| Feature        | Local Variable                       | Global/Class-Level Variable                  |
+| -------------- | ------------------------------------ | -------------------------------------------- |
+| Declaration    | Inside a method or block             | Inside a class, outside methods              |
+| Scope          | Limited to the block or method       | Accessible according to access modifiers     |
+| Initialization | Must be initialized before use       | Gets default values                          |
+| Lifetime       | Exists during method/block execution | Exists as long as the object or class exists |
+| Types          | Local variables                      | Instance or static variables                 |
